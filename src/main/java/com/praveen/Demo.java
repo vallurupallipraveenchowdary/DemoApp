@@ -17,6 +17,11 @@ public class Demo {
 		    System.out.println("sub is"+" "+(a-b)) ;
 		  }
 		  
+                  void sum (double a, double b)
+		  {
+		    System.out.println("sum is"+" "+(a+b));
+		  }
+
 		  public static void main (String[] args)
 		  {
 		    Demo  myObj = new Demo();
@@ -24,7 +29,7 @@ public class Demo {
 		    myObj.sum (8,5);      
 		    myObj.sum (4.6f, 3.8f); 
 		    myObj.sub (15,5);
-		    
+		    myObj.sum (55.65, 65.78);
 		  }
 		}
 	
